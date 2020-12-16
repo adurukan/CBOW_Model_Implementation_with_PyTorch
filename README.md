@@ -5,3 +5,5 @@ the context of a few words before and a few words after the target word. This is
 sequential and does not have to be probabilistic. Typically, CBOW is used to quickly train word embeddings, and these embeddings are
 used to initialize the embeddings of some more complicated model. Usually, this is referred to as pretraining embeddings. It almost
 always helps performance a couple of percent.
+
+The implementation is based on the [Word Embeddings: Encoding Lexical Semantics](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html) tutorial. 
