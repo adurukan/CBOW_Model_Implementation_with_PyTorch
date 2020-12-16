@@ -1,6 +1,6 @@
 # CBOW_Model_Implementation_with_PyTorch
 
-### The Continuous Bag-of-Words model (CBOW) is frequently used in NLP deep learning. It is a model that tries to predict words given
+The Continuous Bag-of-Words model (CBOW) is frequently used in NLP deep learning. It is a model that tries to predict words given
 the context of a few words before and a few words after the target word. This is distinct from language modeling, since CBOW is not
 sequential and does not have to be probabilistic. Typically, CBOW is used to quickly train word embeddings, and these embeddings are
 used to initialize the embeddings of some more complicated model. Usually, this is referred to as pretraining embeddings. It almost
